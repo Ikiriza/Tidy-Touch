@@ -5,9 +5,9 @@ Author : 99layout [99layout@gmail.com]
 
 
 :root{
-	--white:#ffffff;
+	--white:#6c6a6a;
   --lapisblue: #d0eff7;
-  --midnightblue: #025baa;
+  --midnightblue: #3379b5;
   --darkslight: #1c242e;
   --yellowlight:#ffc107;
   --titleFont:'Rajdhani', sans-serif;
@@ -99,7 +99,7 @@ Site Header
 }
 
 .navbar .navbar-nav .nav-link{
-  color:#fff;
+  color:#202020;
   font-family:var(--titleFont);
   font-size: var(--x-small);
   font-weight: 600;
@@ -183,7 +183,7 @@ Services
 }     
 .services .media-thumb{
   border-radius: 100%;
-  border:2px solid #e1e1e1;
+  border:2px solid #525252;
   width: 100px;
   height: 100px;
   align-items: center;
@@ -225,7 +225,7 @@ Testimonial
 }
 .testimonial .card{
   border-radius: 50px;
-  border:2px solid #e1e1e1;
+  border:2px solid #fffefe;
 }
 .testimonial .card-body{
   min-height: 360px;
@@ -248,7 +248,7 @@ Site Footer
   padding-top: 60px;
 }
 .site-footer a{
-  color: #fff;
+  color: #ffffff;
 }
 .site-footer .widget-footer .title-widget{
   font-size: var(--medium);
@@ -280,7 +280,7 @@ Site Footer
 .social-rounded{
   width: 30px;
   height: 30px;
-  border:2px solid #fff;
+  border:2px solid #f8f8f8;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -338,7 +338,7 @@ Media Queries
 }
 @media(min-width: 1000px){
   .site-header{
-    background: url(../images/bgHead-large.png) no-repeat;
+    background: url(../images/bgHead-large.jpg) no-repeat;
     background-size: cover;
     min-height: 557px;
   }
@@ -409,7 +409,7 @@ Media Queries
     box-shadow: 1px 1px 50px -1px rgba(0,0,0,0.75);
   }
   .navbar .navbar-nav .nav-item{
-    border-top: 1px solid #fff;
+    border-top: 1px solid #f6f4f4;
   }
   .navbar .navbar-nav .nav-item:first-child,
   .navbar .navbar-nav .nav-item:last-child{
