@@ -5,10 +5,10 @@ Author : 99layout [99layout@gmail.com]
 
 
 :root{
-	--white:#6c6a6a;
+	--white:#030303;
   --lapisblue: #d0eff7;
   --midnightblue: #3379b5;
-  --darkslight: #1c242e;
+  --darkslight: #464646;
   --yellowlight:#ffc107;
   --titleFont:'Rajdhani', sans-serif;
   --bodyFont:'Open Sans', sans-serif;
@@ -99,7 +99,7 @@ Site Header
 }
 
 .navbar .navbar-nav .nav-link{
-  color:#202020;
+  color:#464242;
   font-family:var(--titleFont);
   font-size: var(--x-small);
   font-weight: 600;
@@ -183,7 +183,7 @@ Services
 }     
 .services .media-thumb{
   border-radius: 100%;
-  border:2px solid #525252;
+  border:2px solid #3e3b3b;
   width: 100px;
   height: 100px;
   align-items: center;
@@ -197,7 +197,7 @@ Services
   margin-bottom: 10px;
 }
 .services .btn{
-  box-shadow: 0 8px 13px rgba(0,0,0,.3);
+  box-shadow: 0 8px 13px rgba(57, 56, 56, 0.3);
 }    
 /*-----------------------------------------
 Order
